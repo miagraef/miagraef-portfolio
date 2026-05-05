@@ -9,6 +9,27 @@ blushed peach= #BF9C88
 */
 
 /* GLOBAL (base) MOBILE FIRST */
+
+/*BODY*/
 body {
     background-color: #BF9C88;
+    font-family: Helvetica, Arial, sans-serif;
+    display: grid;
+}
+
+/*NAV*/
+nav {
+    background-color: #260104; 
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    justify-content: space-around;
 }
